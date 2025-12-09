@@ -1,0 +1,119 @@
+/* นำเข้า Font */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* กล่องใหญ่สุด */
+.rp-box {
+    width: 100%;
+    max-width: 920px;
+    margin: auto;
+    /* พื้นหลังหลัก */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url(https://iili.io/fRCTGWP.png) center/cover no-repeat;
+    border: 1px solid #555;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* โลโก้ด้านบน */
+.rp-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rp-logo img {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    max-height: 120px;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.8));
+}
+
+/* ส่วนหัว (รูป + ชื่อ) */
+.rp-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* กรอบรูปภาพ FC */
+.rp-pic {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border: 1px solid #444;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* กล่องข้อมูลข้างรูป */
+.rp-info-box {
+    flex: 1;
+    min-width: 280px;
+    border: 1px solid #444;
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+}
+
+/* ชื่อตัวละคร */
+.rp-name {
+    font-size: 48px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    font-family: Arial Black, sans-serif;
+}
+
+/* แถวข้อมูล (สถานที่/ของที่ถือ) */
+.rp-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* ป้าย Tag สีแดง */
+.rp-tag {
+    background: #af1b3e;
+    border: 1px solid #bc4a65;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+    flex-shrink: 0;
+}
+
+/* กล่องข้อความโรลเพลย์ */
+.rp-content {
+    margin-top: 10px;
+    border: 1px solid #444;
+    background: rgba(0,0,0,0.8);
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 4px;
+}
+
+.rp-text {
+    margin: auto;
+    text-indent: 20px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* ส่วนหมายเหตุ */
+.rp-note {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-top: 20px;
+}
